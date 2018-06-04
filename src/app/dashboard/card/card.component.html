@@ -1,0 +1,20 @@
+
+
+<!-- <p>{{card | json}}</p> -->
+
+
+<mat-card class="example-card">
+  <!-- <mat-card-header>
+  </mat-card-header> -->
+  <img mat-card-image [src]="card.thumbnailUrl" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      {{card.title | slice:0:60}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="likeFunction(card.id)">LIKE</button>
+    <span>{{likes}}</span>
+
+  </mat-card-actions>
+</mat-card>
