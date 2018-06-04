@@ -1,3 +1,5 @@
 .example-card{width: 100px; margin-top: 30px; 
 height: 285px; display: flex; flex-direction: column;}
 .mat-card>.mat-card-actions:last-child{margin-top: auto;}
+.button-row-box{display: flex; justify-content: space-between; flex-direction: row; align-items: center;}
+.button-row-box span{margin-right: 10px;}
